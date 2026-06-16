@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="header__logo"></a>
+        <input type="checkbox" id="burgermenu" class="header__burger" />
+        <label for="burgermenu" class="header__label">
+          <img src="img/burger.png" class="header__img header__img--burger" />
+          <img src="img/close.png" class="header__img header__img--close" />
+        </label>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#me" class="nav__link"> Про мене </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> Навички </a>
+            </li>
+            <li class="nav__item">
+              <a href="#works" class="nav__link"> Мої роботи </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"> Контакти </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container">
+          <p class="hero__name">Hello, i’m Smolnyi Artem</p>
+          <h1 class="hero__title">frontend-Developer</h1>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__container">
+          <h2 class="about__title" id="me">Про мене</h2>
+          <div class="about__line line"></div>
+          <p class="about__paragraph">
+            Артем, 14 років. Понад 4 роки вивчаю веброзробку (<span class="bold"
+              >HTML</span
+            >, <span class="bold">CSS</span>,
+            <span class="bold">блокова верстка</span>,
+            <span class="bold">Google Workspace</span>). Створюю доступні
+            інтерфейси та планую освоїти <span class="bold">JavaScript</span>.
+            Карате розвинуло в мені дисципліну й цілеспрямованість.
+            Відповідальний, уважний, постійно вдосконалюю власні проєкти.
+          </p>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="skills__container">
+          <h2 class="skills__title" id="skills">Мої Навички</h2>
+          <div class="skills__line line"></div>
+          <div class="hard__soft">
+            <div class="skills__hard">
+              <h2 class="hard__title">Hard Skills</h2>
+              <ul class="hard__list">
+                <li class="hard__item">
+                  <span class="bold">HTML</span> — семантична структура веб-сторінки.
+                </li>
+                <li class="hard__item">
+                  <span class="bold">CSS</span> — стилізація, позиціонування,
+                  адаптивність.
+                </li>
+                <li class="hard__item">
+                  <span class="bold">DOM</span> — структура документа, робота з
+                  елементами.
+                </li>
+                <li class="hard__item">
+                <span class="bold">Макет</span> — базове верстання за графічним зразком.
+                </li>
+              </ul>
+            </div>
+            <div class="skills__soft">
+              <h2 class="soft__title">Soft skills</h2>
+              <ul class="soft__list">
+                <li class="soft__item">
+                  <span class="bold">Наполегливість</span> — доводжу проєкти до
+                  кінця.
+                </li>
+                <li class="soft__item">
+                  <span class="bold">Навчання</span> — постійно вдосконалюю
+                  навички, і вивчаю нове.
+                </li>
+              </ul>
+            </div>
+          </div>
+      </section>
+      <section class="works">
+        <div class="works__container">
+          <h2 class="works__title" id="works">Мої роботи</h2>
+          <div class="works__line line"></div>
+          <div class="works__site">
+            <div class="site site__first">
+              <input type="checkbox" name="" id="first__check" />
+              <label for="first__check" class="first__label">
+                <div class="img__container">
+                  <img src="img/future.png" alt="" class="site__img first__img">
+                </div>
+              </label>
+              <div class="first__desc">
+                <h2 class="first__title">Я в майбутньому</h2>
+                <p class="first__paragraph">
+                  <span class="bold">Проєкт “Я в майбутньому”</span> — командна
+                  візуалізація. Розробив вебсторінку
+                  <span class="bold">«Наш світ майбутнього»</span> з описом
+                  майбутніх змін. Успішно впорався з великим обсягом завдань та
+                  командною взаємодією.
+                </p>
+                <div class="icons">
+                  <a href="" class="desc__link">
+                    <img src="img/hub.png" alt="" class="icons__png" />
+                  </a>
+                  <a href="" class="desc__link">
+                    <img src="img/click.png" alt="" class="icons__png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="site site__second">
+              <input type="checkbox" name="" id="second__check" />
+              <label for="second__check" class="second__label">
+              <div class="img__container">
+                <img src="img/sedona.png" alt="" class="site__img second__img">
+              </div>
+              </label>
+              <div class="second__desc">
+                <h2 class="second__title special">Седона</h2>
+                <p class="second__paragraph">
+                  <span class="bold">Проєкт “Седона”</span> — адаптивна верстка
+                  макета на <span class="bold">HTML/CSS</span>. Успішно вирішено
+                  складні завдання з точного позиціонування елементів дизайну,
+                  здобуто чудовий практичний досвід та закріплено навички.
+                </p>
+                <div class="icons">
+                  <a href="" class="desc__link">
+                    <img src="img/hub.png" alt="" class="icons__png" />
+                  </a>
+                  <a href="" class="desc__link">
+                    <img src="img/click.png" alt="" class="icons__png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="site site__third">
+              <input type="checkbox" name="" id="third__check" />
+              <label for="third__check" class="third__label">
+                <div class="img__container third__container">
+                 <img src="img/project.png" alt="" class="site__img third__img">
+                </div>
+              </label>
+              <div class="third__desc">
+                <h2 class="third__title">Творчий проєкт</h2>
+                <p class="third__paragraph">
+                  <span class="bold">Творчий проєкт</span> — самостійна розробка
+                  сайту (ідея, дизайн, контент) для презентації батькам. Поза
+                  складнощі власної роботи, успішно реалізував сайт і презентував проєкт.
+                </p>
+                <div class="icons">
+                  <a href="" class="desc__link">
+                    <img src="img/hub.png" alt="" class="icons__png" />
+                  </a>
+                  <a href="" class="desc__link">
+                    <img src="img/click.png" alt="" class="icons__png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="connecter"></div>
+      <section class="contact">
+        <div class="contact__container">
+          <div class="contact__text">
+            <h2 class="contact__title" id="contact">Контакти</h2>
+            <div class="line contact__line"></div>
+            <div class="contact__text">
+              <p class="contact__paragraph">
+                Вийти зі мною на зв’язок можна, скориставшись контактною формою,
+                або напряму за номером телефона, email, у соцмережах:
+              </p>
+              <p class="contact__phone">
+                <a href="tel:+38 (066) 828 3696"> +38 (066) 828 3696 </a>
+              </p>
+             <p class="contact__gmail">
+                <a href="mailto:artemsmolnij2023@gmail.com">
+                  artemsmolnij2023@gmail.com
+                </a>
+              </p>
+            </div>
+            <div class="contact__icons">
+              <a href="https://web.telegram.org/k/#@Hasli_serce" class="contact__telegram">
+                <img
+                src="img/telegram.png"
+                alt="telegram"
+                class="telegram__img"
+                width="44"
+                height="45"
+                />
+              </a>
+            </div>
+          </div>
+          <form class="contact__form">
+            <div class="form__container">
+              <div class="form__name">
+                <label for="name" class="name__label"> Ваше ім'я </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="username"
+                  placeholder="Артем"
+                  required
+                  class="name__input"
+                />
+              </div>
+              <div class="form__number">
+                <label for="number" class="number__label">
+                  Номер телефона
+                </label>
+                <input
+                  type="tel"
+                  id="number"
+                  name="phone"
+                  placeholder="+380501111111"
+                  required
+                  class="number__input"
+                />
+              </div>
+              <div class="form__message-box">
+                <div class="form__message">
+                  <label for="client__message" class="message__label">
+                   Ваше повідомлення
+                  </label>
+                  <textarea
+                    name="message"
+                    id="client__message"
+                    rows="4"
+                    placeholder="Текст вашого повідомлення"
+                    class="textarea__input"
+                  > </textarea>
+                </div>
+                <button type="submit" class="form__button">Надіслати</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="footer"></footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+.contact__container{
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+.contact__title{
+    text-align: center;
+}
+.contact__line{
+    margin: 0 auto;
+    width: 31%;
+    padding: 1.3% 0;
+    margin-bottom: 6%;
+}
+.contact__phone, .telegram{
+    padding: 5% 0;
+}
+.form__name, .form__number, .form__message{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.name__input, .number__input, .textarea__input{
+    width: 95%;
+}
+.message__label, .name__label, .number__label{
+    padding-bottom: 2%;
+}
+.form__button{
+    background-color: #005541;
+    padding: 3% 6%;
+    color: white;
+}
+.contact__icons{
+    padding: 4% 0;
+}
+@media screen and (min-width: 744px){
+    .contact__title{
+        font-size: 48px;
+    }
+    .contact__text, .contact__phone, .contact__gmail{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 1028px){
+    .form__button{
+        padding: 1.5% 4.5%;
+    }
+    .name__label{
+        width: 50%;
+    }
+    .contact__container{
+        display: flex;
+    }
+    .contact__text{
+        width: 75%;
+        padding-left: 10%;
+    }
+    .contact__paragraph{
+        width: 100%;
+    }
+    .contact__icons{
+        padding-left: 10%;
+        padding-top: 3%;
+    }
+    .contact__form{
+        width: 85%;
+        padding-top: 5%;
+    }
+    .form__name{
+        width: 25%;
+        padding-right: 2%;
+    }
+    .form__number{
+        width: 25%;
+        padding-left: 2%;
+    }
+    .form__container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .form__message{
+        flex-wrap: wrap;
+        flex-direction: column; 
+        width: 100%;
+    }
+    .form__message-box{
+        width: 51.5%;
+    }
+}
