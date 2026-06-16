@@ -1,0 +1,14 @@
+@import "base/variables.css";
+@import "base/reset.css";
+@import "base/utilites.css";
+@import "base/base.css";
+
+@import "layout/header.css";
+@import "layout/hero.css";
+@import "layout/about.css";
+@import "layout/skills.css";
+@import "layout/works.css";
+@import "layout/contact.css";
+@import "layout/footer.css";
+
+@import "component.css";
